@@ -11,6 +11,10 @@ MAC OS installation:
           
 For Windows instalation:
 
-          In Arduino IDE - just go to “File” > “Preferences” and copy and paste the location (URL) 
-          of your package_boardname_index.json to the “Additional Boards Manager URLs” 
-          section on the bottom of the Preferences menu. Then click "OK"
+          In Arduino IDE - just go to “File” > “Preferences” and copy and paste the location (URL)
+          "https://github.com/jancicS/package_PORTHUB_index.json" 
+          to the “Additional Boards Manager URLs” section on the bottom of the Preferences menu. 
+          Then click "OK"
+          
+          Next, You need to go to: "Tools" -> "Board" -> "Board Managers"
+          Inside search bar type: porthub and click on "Install"
