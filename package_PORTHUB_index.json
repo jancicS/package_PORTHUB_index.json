@@ -4,7 +4,7 @@
     "email": "stefans3100@gmail.com",
     "architecture": "AVR",
     "version": "1.0.0",
-    "url": "https://github.com/jancicS/package_PORTHUB_index.json"
+    "url": "https://github.com/jancicS/package_PORTHUB_index.json",
     "map": {
         "digital": {
             "pins": {
