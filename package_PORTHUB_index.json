@@ -1,35 +1,103 @@
 {
-    "name": "PORTHUB",
-    "map": [
-     {
-        "digital": {
-            "pins": {
-                "D0":  0,  "D1":  1,  "D2":  2,  "D3":  3, "D4": 4,
-                "D5":  5,  "D6":  6,  "D7":  7,  "D8":  8, "D9": 9,
-                "D10": 10, "D11": 11, "D12": 12, "D13": 13, "D14": 14,
-                "D15": 15, "D16": 16, "D17": 17, "D18": 18, "D19": 19
+  "packages":
+  [
+    {
+      "name": "PORTHUB",
+      "maintainer": "Stefan Jancic",
+      "websiteURL": "https://github.com/jancicS/package_PORTHUB_index.json",
+      "email" : "stefans3100@gmail.com",
+      "platforms":
+      [
+        {
+          "name": "PORTHUB by Stefan Jancic",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/jancicS/package_PORTHUB_index.json/blob/43d6d4d10a833252e939e34cd50b1d37a6a69776/PORTHUB.zip",
+          "archiveFileName": "PORTHUB.zip",
+          "checksum": "SHA-256:1927B1B20B0FFA36D1F1BFBA028F90756CEE82B42227C898417ABCFA56ADC6F6",
+          "size": "8773152",
+          "boards": [
+            {
+              "name": "PORTHUB by Stefan Jancic"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
             },
-            "ops": [ "dr", "dw" ]
-        },
-        "analog": {
-            "pins": {
-                "A0": 18, "A1": 19, "A2": 20, "A3": 21,
-                "A6": 24, "A7": 25, "A8": 26, "A9": 27,  "A10": 28,  "A11": 29
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
             },
-            "ops": [ "dr", "dw", "ar" ],
-            "arRange":[0, 1023]
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
         },
-        "pwm": {
-            "pins": [
-                "D3", "D5", "D6", "D9", "D10", "D11", "D13"
-            ],
-            "ops": [ "aw" ],
-            "awRange":[0, 255]
-        },
-        "virtual":  {
-            "pinsRange": [ 0, 31 ],
-            "ops": [ "vr", "vw" ]
+        {
+          "name": "Robo HAT Boards",
+          "architecture": "samd",
+          "version": "0.0.24",
+          "category": "Contributed",
+          "url": "https://github.com/robotics-masters/mm1-hat-arduino/blob/master/custom_board/RoboHat-0.0.24.zip?raw=true",
+          "archiveFileName": "RoboHat-0.0.24.zip",
+          "checksum": "SHA-256:750fedea5f8ac247a4534dcd3b034c8cb9b27be80c631b59761f8aa87a67d737",
+          "size": "3661545",
+          "boards": [
+            {
+              "name": "Robo HAT MM1"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
         }
+      ],
+      "tools":
+      [
+      ]
     }
   ]
 }
